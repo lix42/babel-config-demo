@@ -1,2 +1,4 @@
-let m = new Map();
-Math.sign(-1);
+import * as core from 'core-js/library';
+
+let m = new core.Map();
+core.Math.sign(-1);

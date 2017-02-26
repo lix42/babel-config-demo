@@ -1,1 +1,3 @@
-console.log(String.repeat('c', 3));
+import * as core from 'core-js/library';
+
+console.log(core.String.repeat('c', 3));
